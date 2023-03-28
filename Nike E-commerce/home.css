@@ -1,0 +1,91 @@
+.navigation-contianer {
+    position: absolute;
+    top: 0;
+    width: 100x;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.logo img {
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    filter: invert(1);
+}
+.menu {
+    float: right;
+}
+
+
+.menu {
+    float: left;
+    margin: 10px 50px;
+    width: calc(100% - 6rem);
+}
+
+.fix {
+    clear: both;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.menu ul li a {
+    color: aqua;
+}
+
+.search-box {
+        height: 18px;
+        padding: 10px;
+        border-bottom: 1px solid #b6aeae;
+        background-color: transparent;
+        position: absolute;
+        top: 0.25rem;
+        left: 0;
+        width: 100%;
+}
+
+.fix {
+    clear: both;
+}
+
+.search-text {
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    outline: none;
+    color: white;
+    transition: all ease 0.5s;
+    margin-left: auto;
+    height: 2.5rem;
+    border-bottom: 1px solid #a1a1a1;
+    width: max-content;
+    margin-top: 1rem;
+}
+
+body {
+    background-image: url(./Images/nike-just\ do\ it.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+html {
+    background: #263242;
+}

@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(shadow.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    color: white;
+}
+
+.navigation-contianer {
+    position: absolute;
+    top: 0;
+    width: 100x;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    float: left;
+    filter: invert(1);
+    position: relative;
+    z-index: 1
+}
+
+.menu {
+    float: right;
+}
+
+.menu {
+    float: left;
+    margin: 10px 50px;
+    width: calc(100% - 6rem);
+}
+
+.fix {
+    clear: both;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.menu ul li a {
+    color: aqua;
+}
+
+.search-box {
+    height: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #b6aeae;
+    background-color: transparent;
+    position: absolute;
+    top: 0.25rem;
+    left: 0;
+    width: 100%;
+}
+
+.fix {
+    clear: both;
+}
+
+.search-text {
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    outline: none;
+    color: white;
+    transition: all ease 0.5s;
+    margin-left: auto;
+    height: 2.5rem;
+    border-bottom: 1px solid #a1a1a1;
+    width: max-content;
+    margin-top: 1rem;
+}
+
+.btn {
+    float: right;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+    font-size: 15px !important;
+    color: white;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.slide-box {
+    margin: 80px;
+    display: flex;
+    flex-wrap: 1;
+    justify-content: space-between;
+}
+
+.slider-text {
+    flex-basis: 400px;
+    color: white;
+}
+
+.slideer-text p {
+    color: rgba(100, 100, 100, 1);
+    line-height: 150%;
+    max-width: 30vw;
+    margin-bottom: 5rem;
+}
+
+h6 {
+    font-size: 14px;
+    word-spacing: 5px;
+    line-height: 20px;
+    color: skyblue;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 100%;
+    word-spacing: -2%;
+}
+
+.slider-img {
+    height: 550px;
+}
+
+.slider-img img {
+    max-height: 100x;
+    height: 40vh;
+    max-width: 100x;
+    margin-top: 3rem;
+}
+
+.categories {
+    position: absolute;
+    bottom: 7.5%;
+    left: -32.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    height: 10%;
+    margin-top: 10rem;
+}
+
+.categories select {
+    width: 90px;
+    height: 44px;
+    border: 2px solid skyblue;
+    box-sizing: border-box;
+    background-color: black;
+    color: skyblue;
+    outline: none;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.categories option:hover {
+    background-color: skyblue;
+}
+
+.categories a {
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 500;
+    text-decoration: none;
+    width: 90;
+    box-sizing: border-box;
+    height: 40px;
+    color: rgb(12, 73, 97);
+    border: 2px solid rgb(12, 73, 97);
+    display: flex;
+    align-items: center;
+}
+
+.categories-option {
+    color: black;
+}
+
+.cart {
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 40px;
+    border: 2px solid ;
+    background-color: rgb(50, 50, 50, 0.5);
+    background-color: rgb(50, 50, 50, 0.5);
+}
+
+.cart a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.cart:hoover {
+    background-color: aqua;
+    box-shadow: 3px 12px rgb(183, 50180, 180, 0.3);
+    transition: all ease 0.5s;
+}
+
+.cart:hoover a {
+    color: white;
+}
+
+.shoes-logo img {
+    position: absolute;
+    left: 70px;
+    bottom: 5px;
+    height: 35px;
+}
+
